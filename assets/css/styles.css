@@ -1,0 +1,44 @@
+/*****Ajustes Generales *****/
+
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*****HEADER & NAV*****/
+
+.img-logo {
+  width: 5rem;
+}
+
+#active {
+  color: rgb(255, 255, 255) !important;
+}
+
+/*Carousel General*/
+.carousel-indicators [data-bs-target] {
+  display: none;
+}
+
+/*Carousel Titulos*/
+.carousel-title {
+  font-weight: bold;
+}
+
+.carousel-paragraph {
+  line-height: 0.9rem;
+  margin-top: -0.5rem;
+  padding-left: 15rem !important;
+}
+
+/*Carousel Imagenes*/
+.img-carousel {
+  height: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+}
