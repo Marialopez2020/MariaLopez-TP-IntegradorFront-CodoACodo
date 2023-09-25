@@ -28,7 +28,7 @@ a {
 .carousel-paragraph {
   line-height: 0.9rem;
   margin-top: -0.5rem;
-  padding-left: 15rem !important;
+  padding-left: 28rem !important;
 }
 
 /*Carousel Imagenes*/
@@ -56,4 +56,19 @@ main {
 
 /*Seccion Lugar-Fecha*/
 
+.img-lugar-fecha {
+  object-fit: cover;
+}
+
 /*Seccion Inscripcion*/
+
+/*****Footer*****/
+
+footer {
+  min-height: 15vh;
+  background-color: #1d4358;
+}
+footer a {
+  color: white;
+  font-size: 12px;
+}
