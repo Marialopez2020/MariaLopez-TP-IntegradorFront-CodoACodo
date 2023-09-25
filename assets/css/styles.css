@@ -23,6 +23,7 @@ a {
 /*Carousel Titulos*/
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.502);
+  padding-right: 1rem;
 }
 
 .carousel-title {
@@ -30,7 +31,7 @@ a {
 }
 
 .carousel-paragraph {
-  line-height: 0.9rem;
+  line-height: 1rem;
   margin-top: -0.5rem;
   padding-left: 28rem !important;
 }
