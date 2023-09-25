@@ -21,6 +21,10 @@ a {
 }
 
 /*Carousel Titulos*/
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.502);
+}
+
 .carousel-title {
   font-weight: bold;
 }
