@@ -50,17 +50,19 @@
             </nav>
         </div>
         <div id="carouselWithCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
-            <ol class="carousel-indicators">
+            <!--  <ol class="carousel-indicators d-none">
                 <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="0" class="active"></li>
                 <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="1"></li>
                 <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="2"></li>
-            </ol>
+            </ol> -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="assets/images/ba1.jpg" class="d-block w-100 img-carousel" alt="Slide 1">
                     <div class="carousel-caption text-end border">
-                        <h5 class="carousel-title  d-none d-sm-block">Conf Bs As</h5>
-                        <p class="carousel-paragraph  d-none d-lg-block">Bs As llega por primera vez a Argentina. Un
+                        <h5 class="carousel-title text-center d-none d-sm-block d-lg-none">Conferencia Bs As</h5>
+                        <h5 class="carousel-title d-none d-lg-block">Conferencia Bs As</h5>
+
+                        <p class="carousel-paragraph d-none d-lg-block">Bs As llega por primera vez a Argentina. Un
                             evento para
                             compartir
                             con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el
@@ -118,12 +120,40 @@
             </a>
         </div>
     </header>
-    <main>
 
+    <main>
+        <section id="oradores" class="text-center">
+            <p class="layout-subtitle1 mt-3">CONOCE A LOS </p>
+            <h1 class="layout-title1">ORADORES</h1>
+        </section>
+
+        <section id="lugar-fecha" class="container-fluid d-flex w-100">
+            <div class="row d-flex">
+                <div class="col-6 pe-0 ps-0">
+                    <img class="w-100 h-100" src="./assets/images/honolulu.jpg" alt="">
+                </div>
+                <div class="col-6 bg-secondary ps-0">
+                    <h2 class="text-left text-white">Bs As - Octubre</h2>
+                </div>
+            </div>
+        </section>
+        <section id="inscripcion" class="text-center">
+            <p class="layout-subtitle1 mt-3">CONVIÉRTETE EN UN </p>
+            <h2 class="layout-title1">ORADOR</h2>
+        </section>
+        <div class="container-fluid d-flex justify-content-end">
+            <div class="row d-none d-lg-block">
+                <a class="up-arrow" href="#" data-toggle="tooltip" title="Ir Arriba"><i
+                        class="fa-solid fa-circle-arrow-up"></i></a> <br>
+            </div>
+        </div>
     </main>
     <footer>
 
     </footer>
+
+    <script src="https://kit.fontawesome.com/9a6888701c.js" crossorigin="anonymous">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
         </script>

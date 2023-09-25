@@ -20,11 +20,6 @@ a {
   color: rgb(255, 255, 255) !important;
 }
 
-/*Carousel General*/
-.carousel-indicators [data-bs-target] {
-  display: none;
-}
-
 /*Carousel Titulos*/
 .carousel-title {
   font-weight: bold;
@@ -42,3 +37,23 @@ a {
   max-height: 100vh;
   object-fit: cover;
 }
+
+/*****Main*****/
+
+main {
+  min-height: 80vh;
+}
+
+/*Seccion Oradores*/
+
+/* .layout-subtitle1{
+    
+  } */
+
+.layout-title1 {
+  margin-top: -1.5rem;
+}
+
+/*Seccion Lugar-Fecha*/
+
+/*Seccion Inscripcion*/
