@@ -15,45 +15,46 @@
 </head>
 
 <body>
+
     <header>
-        <div class="container">
-            <nav class="navbar navbar-expand-lg bg-dark fixed-top">
-                <a class="navbar-brand d-none d-lg-block" href="#"><img class="img-logo ms-4"
-                        src="./assets/images/logo2.png" alt=""></a>
-                <a class="navbar-brand d-md-block d-lg-none" href="#"><img class="img-logo ms-4"
-                        src="./assets/images/codoacodo.png" alt=""></a>
-                <button class="navbar-toggler collapsed bg-secondary me-4" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-lg-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav ps-3 ml-auto">
-                        <li class="nav-item inicio">
-                            <a class="nav-link text-secondary" id="active" href="#">La conferencia</a>
-                        </li>
-                        <li class="nav-item inicio">
-                            <a class="nav-link text-secondary" href="#oradores">Los oradores</a>
-                        </li>
-                        <li class="nav-item inicio">
-                            <a class="nav-link text-secondary" href="#lugar-fecha">El lugar y la fecha</a>
-                        </li>
-                        <li class="nav-item inicio">
-                            <a class="nav-link text-secondary" href="#inscripcion">Conviértete en orador</a>
-                        </li>
-                        <li class="nav-item inicio">
-                            <a class="nav-link text-success  me-5" href="#">Comprar tickets</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+
+        <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+            <a class="navbar-brand d-none d-lg-block" href="#"><img class="img-logo ms-4"
+                    src="./assets/images/logo2.png" alt=""></a>
+            <a class="navbar-brand d-md-block d-lg-none" href="#"><img class="img-logo ms-4"
+                    src="./assets/images/codoacodo.png" alt=""></a>
+            <button class="navbar-toggler collapsed bg-secondary me-4" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-lg-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ps-3 ml-auto">
+                    <li class="nav-item inicio">
+                        <a class="nav-link text-secondary" id="active" href="#">La conferencia</a>
+                    </li>
+                    <li class="nav-item inicio">
+                        <a class="nav-link text-secondary" href="#oradores">Los oradores</a>
+                    </li>
+                    <li class="nav-item inicio">
+                        <a class="nav-link text-secondary" href="#lugar-fecha">El lugar y la fecha</a>
+                    </li>
+                    <li class="nav-item inicio">
+                        <a class="nav-link text-secondary" href="#inscripcion">Conviértete en orador</a>
+                    </li>
+                    <li class="nav-item inicio">
+                        <a class="nav-link text-success  me-5" href="#">Comprar tickets</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
         <div id="carouselWithCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./assets/images/ba1.jpg" class="d-block w-100 img-carousel" alt="Slide 1">
+                    <img src="./assets/images/ba1.jpg" class="d-block w-100 img-fluid img-carousel" alt="Slide 1">
                     <div class="carousel-caption text-end">
-                        <h5 class="carousel-title d-none d-sm-block">Conferencia Bs As</h5>
+                        <h5 class="carousel-title fw-bold d-none d-sm-block">Conferencia Bs As</h5>
                         <h5 class="carousel-title text-center d-xs-block d-sm-none">Conferencia Bs As</h5>
                         <p class="carousel-paragraph d-none d-lg-block">Bs As llega por primera vez a Argentina. Un
                             evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos
@@ -73,7 +74,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/images/ba2.jpg" class="d-block w-100 img-carousel" alt="Slide 2">
+                    <img src="./assets/images/ba2.jpg" class="d-block w-100 img-fluid img-carousel" alt="Slide 2">
                     <div class="carousel-caption text-center">
                         <h5>Conferencia Bs As</h5>
                         <div class="d-flex justify-content-center">
@@ -84,7 +85,8 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/images/ba3.jpg" class="d-block w-100 img-carousel" alt="Slide 3">
+                    <img src="./assets/images/ba3.jpg" class="d-block w-100 img-fluid img-carousel img-carousel3"
+                        alt="Slide 3">
                     <div class="carousel-caption text-center">
                         <h5>Conferencia Bs As</h5>
                         <div class="d-flex justify-content-center">
@@ -103,42 +105,64 @@
             </a>
         </div>
     </header>
+
     <main>
-        <section id="oradores" class="text-center">
-            <p class="layout-subtitle1 mt-3">CONOCE A LOS </p>
-            <h1 class="layout-title1">ORADORES</h1>
+
+        <section id="oradores">
+            <div class="container text-center">
+                <div class="row">
+                    <p class="layout-subtitle1 mt-3">CONOCE A LOS </p>
+                    <h1 class="layout-title1">ORADORES</h1>
+                </div>
+            </div>
         </section>
 
-        <section id="lugar-fecha" class="container-fluid d-flex w-100">
-            <div class="row d-flex">
-                <div class="col-md-6 pe-0 ps-0">
-                    <img class="w-100 h-100 img-lugar-fecha" src="./assets/images/honolulu.jpg" alt="">
-                </div>
-                <div class="col-md-6 bg-dark p-3 text-white">
-                    <h2>Bs As - Octubre</h2>
-                    <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados
-                        Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el
-                        nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y
-                        el condado de Honolulu han formado una ciudad- condado consolidada que cubre toda la ciudad
-                        (aproximadamente 600 km² de superficie).</p>
-                    <div class="d-flex">
-                        <a href="#inscripcion" class="btn btn-outline-light border-light d-none d-sm-block ">Conocé
-                            más</a>
+        <section id="lugar-fecha">
+            <div class="container-fluid d-flex w-100">
+                <div class="row d-flex">
+                    <div class="col-md-6 pe-0 ps-0">
+                        <img class="w-100 h-100 img-fluid img-lugar-fecha" src="./assets/images/honolulu.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 bg-dark p-3 text-white">
+                        <h2>Bs As - Octubre</h2>
+                        <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados
+                            Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque
+                            el
+                            nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la
+                            ciudad y
+                            el condado de Honolulu han formado una ciudad- condado consolidada que cubre toda la ciudad
+                            (aproximadamente 600 km² de superficie).</p>
+                        <div class="d-flex">
+                            <a href="#inscripcion" class="btn btn-outline-light border-light d-none d-sm-block ">Conocé
+                                más</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="inscripcion" class="text-center">
-            <p class="layout-subtitle1 mt-3">CONVIÉRTETE EN UN </p>
-            <h2 class="layout-title1">ORADOR</h2>
+
+        <section id="inscripcion">
+            <div class=" container text-center">
+                <div class="row">
+                    <p class="layout-subtitle1 mt-3">CONVIÉRTETE EN UN </p>
+                    <h2 class="layout-title1">ORADOR</h2>
+                </div>
+            </div>
         </section>
+
         <div class="container-fluid d-flex justify-content-end">
             <div class="row d-none d-lg-block">
                 <a class="up-arrow" href="#" data-toggle="tooltip" title="Ir Arriba"><i
                         class="fa-solid fa-circle-arrow-up"></i></a> <br>
             </div>
         </div>
+        <div class="page-me">
+            <span class="me-1">Creado por Maria Lopez </span>
+            <img class="img-logo2" src="./assets/images/logo2.png" alt="logo Codo a Codo">
+        </div>
+
     </main>
+
     <footer class="d-flex align-items-center">
         <div class="container-lg">
             <div class="row d-flex justify-content-around text-center">
