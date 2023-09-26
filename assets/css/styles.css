@@ -92,13 +92,14 @@ footer a {
   align-items: center;
   font-size: 0.8rem;
   font-weight: bold;
-  padding: 0.1rem;
+  padding-top: 0.5rem;
   background: rgba(232, 239, 51, 0.54);
 }
 
 .img-logo2 {
   width: 3rem;
   object-fit: cover;
+  padding: 0.5rem 0 0.8rem 0;
 }
 
 .page-me a {
