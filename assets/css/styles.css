@@ -10,11 +10,14 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
 /*****HEADER & NAV*****/
 
 .img-logo {
   width: 5rem;
-  object-fit: cover;
 }
 
 #active {
@@ -56,11 +59,12 @@ main {
 
 /*Seccion Oradores*/
 
-/* .layout-subtitle1{
-    
-  } */
+.layout-subtitle1 {
+  font-size: 0.75rem !important;
+}
 
 .layout-title1 {
+  font-size: 1.5rem !important;
   margin-top: -1.5rem;
 }
 
@@ -81,28 +85,4 @@ footer {
 footer a {
   color: white;
   font-size: 12px;
-}
-
-/*Creado por Maria Lopez*/
-.page-me {
-  position: fixed;
-  right: 0;
-  bottom: 4rem;
-  display: flex;
-  align-items: center;
-  font-size: 0.8rem;
-  font-weight: bold;
-  padding-top: 0.5rem;
-  background: rgba(232, 239, 51, 0.54);
-}
-
-.img-logo2 {
-  width: 3rem;
-  object-fit: cover;
-  padding: 0.5rem 0 0.8rem 0;
-}
-
-.page-me a {
-  display: flex;
-  margin-left: 9px;
 }
