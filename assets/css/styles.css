@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #d8d6d6;
+}
+
 a {
   text-decoration: none;
 }
@@ -25,10 +29,7 @@ h1 {
 }
 
 /*Carousel Titulos*/
-.carousel-caption {
-  background-color: rgba(0, 0, 0, 0.502);
-  padding-right: 1rem;
-}
+
 
 /* .carousel-title {
 
@@ -49,6 +50,11 @@ h1 {
 
 .img-carousel3 {
   object-position: 0 -10% !important;
+}
+
+.shadow-img {
+  background-color: rgba(0, 0, 0, 0.658);
+  max-height: 100vh;
 }
 
 /*****Main*****/
@@ -86,3 +92,5 @@ footer a {
   color: white;
   font-size: 12px;
 }
+
+
