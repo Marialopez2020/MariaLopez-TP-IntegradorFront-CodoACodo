@@ -8,11 +8,11 @@
 
 body {
   background-color: #edeaea;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 h1 {
@@ -47,7 +47,6 @@ p {
 } */
 
 .carousel-paragraph {
- 
   margin-top: -0.5rem;
   padding-left: 28rem !important;
 }
@@ -102,4 +101,3 @@ footer a {
   color: white;
   font-size: 12px;
 }
-
