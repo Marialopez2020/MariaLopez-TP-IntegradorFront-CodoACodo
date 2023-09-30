@@ -75,20 +75,29 @@ main {
 }
 
 /*Seccion Oradores*/
+/* .img-oradores {
+  height: 300px !important;
+  object-fit: cover;
+}
 
-.layout-title1 {
-  margin-top: -1.5rem;
+.card-body-h {
+  height: 205px !important;
+
+} */
+
+.layout-title {
+  margin-top: -1rem !important;
 }
 
 /*Seccion Lugar-Fecha*/
+.section2-h {
+  height: 350px !important;
+}
 
 .img-lugar-fecha {
   object-fit: cover;
 }
 
-.section2-h {
-  height: 300px !important;
-}
 
 /*Seccion Inscripcion*/
 
