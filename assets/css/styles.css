@@ -27,8 +27,12 @@ h2 {
 
 p {
   font-size: 16px;
-  line-height: 16px; 
+  line-height: 16px;
   font-weight: 400;
+}
+
+img {
+  object-fit: cover !important;
 }
 
 /*****HEADER & NAV*****/
@@ -98,10 +102,22 @@ main {
   object-fit: cover;
 }
 
-
 /*Seccion Inscripcion*/
 
+.form-imagen {
+  width: 600px !important;
+  width: 100% !important;
+  height: 600px !important;
+  border-radius: 2%;
+}
 
+.textarea {
+  resize: none;
+}
+
+.layout-title-s3 {
+  margin-top: 8rem;
+}
 
 /*****Footer*****/
 
@@ -111,6 +127,5 @@ footer {
 }
 footer a {
   color: white;
-  font-size: 12px;
+  font-size: 15px;
 }
-
