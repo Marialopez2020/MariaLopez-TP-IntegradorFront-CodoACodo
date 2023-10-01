@@ -129,3 +129,8 @@ footer a {
   color: white;
   font-size: 15px;
 }
+
+.ok {
+  min-width: 200px !important;
+  margin: auto !important;
+}
