@@ -26,9 +26,9 @@ h2 {
 }
 
 p {
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  font-weight: 400 !important;
 }
 
 img {
@@ -127,7 +127,7 @@ footer {
 }
 footer a {
   color: white;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .ok {
