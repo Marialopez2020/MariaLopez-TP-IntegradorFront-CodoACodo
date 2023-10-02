@@ -79,15 +79,13 @@ main {
 }
 
 /*Seccion Oradores*/
-/* .img-oradores {
-  height: 300px !important;
-  object-fit: cover;
+.card-s1 {
+  transition: 0.3s;
 }
 
-.card-body-h {
-  height: 205px !important;
-
-} */
+.card-s1:hover {
+  transform: scale(1.05);
+}
 
 .layout-title {
   margin-top: -1rem !important;
@@ -129,4 +127,3 @@ footer a {
   color: white;
   font-size: 14px;
 }
-
