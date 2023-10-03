@@ -39,7 +39,7 @@
             <div class="collapse navbar-collapse justify-content-lg-end" id="navbarSupportedContent">
                 <ul class="navbar-nav ps-3 ml-auto">
                     <li class="nav-item inicio">
-                        <a class="nav-link text-secondary" id="active" href="#">La conferencia</a>
+                        <a class="nav-link text-secondary" href="#">La conferencia</a>
                     </li>
                     <li class="nav-item inicio">
                         <a class="nav-link text-secondary" href="#oradores">Los oradores</a>
@@ -56,7 +56,7 @@
                 </ul>
             </div>
         </nav>
-
+        <!-- Carousel -->
         <div id="carouselWithCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -137,62 +137,58 @@
     </header>
 
     <main>
+
+        <!-- Seccion 1: Oradores -->
         <section id="oradores">
-            <div class="container">
-                <div class="row">
-                    <p class="layout-subtitle mt-3 text-center" data-aos="fade-up" data-aos-duration="3000">CONOCE A LOS
-                    </p>
-                    <h2 class="layout-title text-center" data-aos="fade-up" data-aos-duration="3000">ORADORES</h2>
-
-                    <div class="col-lg-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-duration="3000">
-                        <div class="card card-s1">
-                            <a href="#"><img class="img-fluid card-img-top" src="./assets/images/steve2.jpg"
-                                    alt="..."></a>
+            <div class="container mb-4">
+                <p class="layout-subtitle mt-3 text-center" data-aos="fade-up" data-aos-duration="3000">CONOCE A LOS
+                </p>
+                <h2 class="layout-title text-center" data-aos="fade-up" data-aos-duration="3000">ORADORES</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="col">
+                        <div class="card h-100 card-s1">
+                            <img src="./assets/images/steve.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <a class="text-sm text-black fw-bold btn btn-warning p-0" href="#">JavaScript</a>
                                 <a class="text-sm text-light fw-bold btn btn-info p-0" href="#">React</a>
-
-                                <h5 class="my-2"><a class="text-dark" href="#">Steve Jobs</a></h5>
-                                <p class="my-2 text-muted text-sm">Lorem ipsum dolor sit amet consectetur adipisicing
+                                <h5 class="card-title mt-1"><a class="text-dark" href="#">Steve Jobs</a></h5>
+                                <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing
                                     elit. Qui a neque quisquam veniam nihil consequatur nam similique rem quidem iure,
-                                    aut repellat sapiente error sequi repudiandae explicabo.</p>
+                                    aut repellat sapiente error sequi repudiandae explicabo</p>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-duration="3000">
-                        <div class="card card-s1">
-                            <a href="#"><img class="img-fluid card-img-top" src="./assets/images/bill.jpg"
-                                    alt="..."></a>
+                    <div class="col">
+                        <div class="card h-100 card-s1">
+                            <img src="./assets/images/bill.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <a class="text-sm text-black fw-bold btn btn-warning p-0" href="#">JavaScript</a>
                                 <a class="text-sm text-light fw-bold btn btn-info p-0" href="#">React</a>
-                                <h5 class="my-2"><a class="text-dark" href="#">Bill Gates</a></h5>
-                                <p class="my-2 text-muted text-sm">Lorem ipsum dolor sit amet consectetur adipisicing
+                                <h5 class="card-title mt-1"><a class="text-dark" href="#">Steve Jobs</a></h5>
+                                <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing
                                     elit. Qui a neque quisquam veniam nihil consequatur nam similique rem quidem iure,
-                                    aut repellat sapiente error sequi repudiandae explicabo.</p>
+                                    aut repellat sapiente error sequi repudiandae explicabo</p>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-duration="3000">
-                        <div class="card card-s1">
-                            <a href="#"><img class="img-fluid card-img-top" src="./assets/images/ada.jpeg"
-                                    alt="..."></a>
+                    <div class="col">
+                        <div class="card h-100 card-s1">
+                            <img src="./assets/images/ada.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <a class="text-sm text-light fw-bold btn btn-secondary p-0" href="#">Negocios</a>
+                                <a class="text-sm text-black fw-bold btn btn-secondary p-0" href="#">Negocios</a>
                                 <a class="text-sm text-light fw-bold btn btn-danger p-0" href="#">Startups</a>
-
-                                <h5 class="my-2"><a class="text-dark" href="#">Ada Lovelace</a></h5>
-                                <p class="my-2 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing
+                                <h5 class="card-title mt-1"><a class="text-dark" href="#">Ada Lovelace</a></h5>
+                                <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing
                                     elit. Qui a neque quisquam veniam nihil consequatur nam similique rem quidem iure,
-                                    aut repellat sapiente error sequi repudiandae explicabo.</p>
+                                    aut repellat sapiente error sequi repudiandae explicabo</p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
 
+        <!-- Seccion 2: Lugar y Fecha -->
         <section id="lugar-fecha">
             <div class="container-fluid d-flex" data-aos="fade-up" data-aos-duration="3000">
                 <div class="row d-flex">
@@ -219,6 +215,7 @@
             </div>
         </section>
 
+        <!-- Seccion 3: Inscripcion -->
         <section id="inscripcion" data-aos="fade-up" data-aos-duration="3000">
             <div class="container text-center">
                 <div class="row">
@@ -226,14 +223,17 @@
                     <h2 class="layout-title" data-aos="fade-up" data-aos-duration="3000">ORADOR</h2>
                 </div>
             </div>
-            <div class="container my-3">
+            <div class="container mb-3">
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-6">
-                        <div class="card border-white shadow">
-                            <img class="card-img-top img-fluid form-imagen" src="./assets/images/ba1-sm.jpg"
-                                alt="Form image">
+                        <div class="card card-s1">
+                            <img class="card-img-top img-fluid form-imagen" src="./assets/images/form.jpg"
+                                alt="Imagen Ciudad">
                             <div class="card-img-overlay">
-                                <p class="layout-title-s3">Inscripción Oradores</p>
+                                <p class="layout-title-s3 text-light">Anótate como orador para dar una <span
+                                        class="punteado"><a href="">charla ignite</a></span>. Cuéntanos de qué quieres
+                                    hablar!
+                                </p>
                                 <form action="">
                                     <div class="row g-3">
                                         <div class="col-md-6">
@@ -251,7 +251,7 @@
                                             <textarea class="form-control text-muted textarea" rows="4" id="comment"
                                                 name="text" placeholder="Sobre qué quieres hablar?"></textarea>
 
-                                            <button type="submit" class="btn btn-success col-12 mt-3">Enviar</button>
+                                            <button type="submit" class="btn btn-success col-12 mt-4">Enviar</button>
                                         </div>
                                     </div>
                                 </form>
@@ -262,14 +262,17 @@
             </div>
         </section>
 
+        <!-- Icono "Ir arriba" -->
         <div class="container-fluid d-flex justify-content-end">
             <div class="row d-none d-lg-block">
                 <a class="up-arrow" href="#" data-toggle="tooltip" title="Ir Arriba"><i
                         class="fa-solid fa-circle-arrow-up"></i></a> <br>
             </div>
         </div>
+
+        <!-- Icono-enlace a mi Github -->
         <div
-            class="d-flex align-items-center position-fixed bottom-0 end-0 mb-5 me-1 px-2 py-2 rounded-pill bg-dark z-2 d-none d-lg-block">
+            class="d-flex align-items-center position-fixed bottom-0 end-0 mb-5 me-1 px-2 py-2 rounded-pill bg-dark z-2 d-none d-lg-block card-s1">
             <i class="fa-brands fa-github text-light me-1"></i><a
                 href="https://github.com/Marialopez2020/MariaLopez-TP-IntegradorFront-CodoACodo"
                 class="me-1 mb-1 text-heading text-xs text-light" target="_blank">By Maria Lopez</a>

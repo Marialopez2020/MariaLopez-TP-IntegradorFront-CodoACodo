@@ -1,4 +1,4 @@
-/*****Ajustes Generales *****/
+/*****Ajustes Globales *****/
 
 * {
   border: 0;
@@ -41,16 +41,12 @@ img {
   width: 5rem;
 }
 
-#active {
-  color: rgb(255, 255, 255) !important;
+nav li a:hover,
+nav li a:focus {
+  color: #ffffff !important;
 }
 
 /*Carousel Titulos*/
-
-/* .carousel-title {
-
-} */
-
 .carousel-paragraph {
   margin-top: -0.5rem;
   padding-left: 28rem !important;
@@ -101,12 +97,18 @@ main {
 }
 
 /*Seccion Inscripcion*/
-
 .form-imagen {
   width: 600px !important;
   width: 100% !important;
   height: 600px !important;
-  border-radius: 2%;
+}
+
+.punteado {
+  border-bottom: 2px dotted white;
+}
+
+span a {
+  color: white;
 }
 
 .textarea {
@@ -114,7 +116,7 @@ main {
 }
 
 .layout-title-s3 {
-  margin-top: 8rem;
+  margin-top: 9rem;
 }
 
 /*****Footer*****/
@@ -123,7 +125,13 @@ footer {
   min-height: 15vh;
   background-color: #1d4358;
 }
+
 footer a {
   color: white;
   font-size: 14px;
+}
+
+footer a:hover {
+  color: rgb(122, 204, 220);
+  font-size: 16px;
 }
