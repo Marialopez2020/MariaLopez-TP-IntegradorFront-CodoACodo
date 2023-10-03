@@ -108,7 +108,7 @@ main {
 }
 
 span a {
-  color: white;
+  color: white !important;
 }
 
 .textarea {
@@ -132,6 +132,6 @@ footer a {
 }
 
 footer a:hover {
-  color: rgb(122, 204, 220);
-  font-size: 16px;
+  color: rgb(122, 204, 220) !important;
+  font-size: 16px !important;
 }
