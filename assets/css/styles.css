@@ -101,10 +101,6 @@ main {
   height: 350px !important;
 }
 
-.img-lugar-fecha {
-  object-fit: cover;
-}
-
 /*Seccion Inscripcion*/
 .form-imagen {
   width: 600px !important;
