@@ -1,5 +1,4 @@
 /*****Ajustes Globales *****/
-
 * {
   border: 0;
   margin: 0;
@@ -47,9 +46,19 @@ li a:focus {
 }
 
 /*Carousel Titulos*/
-.carousel-paragraph {
+.carousel-paragraph1 {
   margin-top: -0.5rem;
   padding-left: 28rem !important;
+}
+
+.carousel-paragraph2 {
+  margin-top: -0.5rem;
+  padding-left: 15rem !important;
+}
+
+.carousel-paragraph3 {
+  margin-top: -0.5rem;
+  padding-left: 1rem !important;
 }
 
 /*Carousel Imagenes*/
