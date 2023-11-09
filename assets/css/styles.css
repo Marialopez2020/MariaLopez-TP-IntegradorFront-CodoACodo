@@ -80,7 +80,7 @@ li a:focus {
 /*****Main*****/
 
 main {
-  min-height: 60vh;
+  min-height: 85vh;
 }
 
 /*Seccion Oradores*/
@@ -124,7 +124,20 @@ span a {
   margin-top: 9rem;
 }
 
-/*****Footer*****/
+/*****Pagina Tickets*****/
+.btn-tickets {
+  width: 100%;
+  padding: 0.5rem 0 !important;
+}
+
+@media only screen and (min-width: 769px) {
+  .tickets-section {
+    margin: auto;
+    width: 70%;
+  }
+}
+
+/*****Footer General*****/
 
 footer {
   min-height: 15vh;
